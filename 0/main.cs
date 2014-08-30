@@ -1,6 +1,6 @@
 using System;
 
-public class Sample
+public class ObjectOrientalSample
 {
   public static void Main(string[] args)
   {
