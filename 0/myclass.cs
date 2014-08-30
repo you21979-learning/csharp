@@ -14,6 +14,7 @@ namespace MyNamespace
     }
     public void MyMethod ()
     {
+      Console.WriteLine("mymethod called");
     }
   }
 }
