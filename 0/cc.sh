@@ -1,2 +1,2 @@
 #!/bin/bash
-gmcs main.cs myclass.cs
+gmcs main.cs myclass.cs myinherit.cs

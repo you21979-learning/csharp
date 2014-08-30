@@ -4,8 +4,12 @@ public class Sample
 {
   public static void Main(string[] args)
   {
-    var m = new MyNamespace.MyClass();
-    m.MyMethod();
+    var mc = new MyNamespace.MyClass();
+    mc.MyMethod();
+
+    var mi = new MyInherit.Base();
+    var md = new MyInherit.Derived();
+
     Console.WriteLine("exit");
   }
 }
