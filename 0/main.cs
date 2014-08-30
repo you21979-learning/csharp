@@ -10,7 +10,12 @@ public class Sample
     var mi = new MyInherit.Base();
     var md = new MyInherit.Derived();
 
-    MyNamespace.MySingleton.MyMethod();
+    MyNamespace.MySingleton.Initialize("./");
+    MyNamespace.MySingleton.GetInstance().MyMethod();
+    MyNamespace.MySingleton.GetInstance().MyMethod();
+    MyNamespace.MySingleton.GetInstance().MyMethod();
+
+    MyNamespace.MyStaticClass.MyMethod();
 
     Console.WriteLine("exit");
   }
